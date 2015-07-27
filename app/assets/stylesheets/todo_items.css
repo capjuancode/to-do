@@ -3,5 +3,21 @@
   They will automatically be included in application.css.
 */
 body {
-  background-image:url(img src=”/assets/image_file_name.png”) ;
+  background-image:url("background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: red;
+}
+
+.frige {
+    background-image: url("refrigerator.jpg");
+    position: absolute;
+    bottom: 0;
+    left: 30%;
+    right: 30%;
+    height: 80%;
+    background-position: -370px -15px;
+    background-size: 240%;
+    background-repeat: no-repeat;
+    box-shadow: 20px 20px 30px;
 }
