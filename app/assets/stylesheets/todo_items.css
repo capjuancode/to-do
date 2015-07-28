@@ -2,13 +2,15 @@
   Place all the styles related to the matching controller here.
   They will automatically be included in application.css.
 */
+
+/*kitchen background*/
 body {
   background-image:url("background.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: red;
 }
-
+/*potion frige */
 .frige {
     background-image: url("refrigerator.jpg");
     position: absolute;
@@ -20,4 +22,15 @@ body {
     background-size: 240%;
     background-repeat: no-repeat;
     box-shadow: 20px 20px 30px;
+}
+
+.postitnot {
+    background-image: url("Postitnot.png");
+    width: 365px;
+    height: 472px;
+    margin-left: 97px;
+    background-size: 109%;
+    background-repeat: no-repeat;
+    padding: 36px 0 0 61px;
+    margin-top: 26px;
 }

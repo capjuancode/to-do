@@ -16,9 +16,9 @@
     <% @todo_items.each do |todo_item| %>
       <tr>
 
-        <td><%= todo_item.description %></td>
-        <td><%= todo_item.starred %></td>
-        <td><%= todo_item.hidden %></td>
+        <td class="font"><%= todo_item.description %></td>
+        <td class="font"><%= todo_item.starred %></td>
+        <td class="font"><%= todo_item.hidden %></td>
         <td><%= link_to 'Show', todo_item %></td>
         <td><%= link_to 'Edit', edit_todo_item_path(todo_item) %></td>
         <td><%= link_to 'Destroy', todo_item, method: :delete, data: { confirm: 'Are you sure?' } %></td>
